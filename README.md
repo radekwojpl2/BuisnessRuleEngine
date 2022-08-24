@@ -5,6 +5,7 @@ This buisness rule engine is based on https://github.com/kgrzybek/modular-monoli
 ## USAGE
 ``` C#
 
+// let say this is our model
   class ClimbingGym
   {
       public ClimbingGym(bool isClosed)
@@ -14,7 +15,8 @@ This buisness rule engine is based on https://github.com/kgrzybek/modular-monoli
 
       public bool IsClosed { get; }
   }
-
+  
+// and in our system we have some rule that Climbing visit must be open befor performing some action 
   class ClimbingGymMustBeOpen : BuisnessRuleSubject<ClimbingGym>, IBuisnessRule
   {
       public TestBuisnessRule(ClimbingGym climbingGym): base(climbingGym)
@@ -28,5 +30,12 @@ This buisness rule engine is based on https://github.com/kgrzybek/modular-monoli
   }
 
   var climbingGym = new ClimbingGym(true)
+  
+// insted of this 
+if(climbingGym.IsClosed)
+{
+  throw new ConfictException("Clibing gym must be open")
+}
 
+// we can use 
   Check.Rule(new ClimbingGymMustBeOpen(climbingGym))
