@@ -16,7 +16,7 @@ This buisness rule engine is based on https://github.com/kgrzybek/modular-monoli
       public bool IsClosed { get; }
   }
   
-// and in our system we have some rule that Climbing visit must be open befor performing some action 
+// and in our system we have some rule that Climbing gym must be open befor performing some action 
   class ClimbingGymMustBeOpen : BuisnessRuleSubject<ClimbingGym>, IBuisnessRule
   {
       public TestBuisnessRule(ClimbingGym climbingGym): base(climbingGym)
