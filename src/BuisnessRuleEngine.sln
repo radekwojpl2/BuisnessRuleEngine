@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuisnessRuleEngine", "Buisn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuisnessRuleEngine.Tests", "BuisnessRuleEngine.Tests\BuisnessRuleEngine.Tests.csproj", "{89AC0592-C179-4DAC-95E0-4C55FF6CDE80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuisnessRuleEngine.Extensions", "BuisnessRuleEngine.Extensions\BuisnessRuleEngine.Extensions.csproj", "{F2DC6D20-0ED8-4C47-82F5-832356E533D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuisnessRuleEngine.Testing.NUnit.Extensions", "BuisnessRuleEngine.Extensions\BuisnessRuleEngine.Testing.NUnit.Extensions.csproj", "{F2DC6D20-0ED8-4C47-82F5-832356E533D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

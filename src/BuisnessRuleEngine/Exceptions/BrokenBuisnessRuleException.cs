@@ -7,9 +7,13 @@ namespace BuisnessRuleEngine.Exceptions
     {
         public IBuisnessRule _rule;
 
+        public  string Message { get; init; }
+
         public BrokenBuisnessRuleException(IBuisnessRule rule) : base(rule.Message)
         {
             _rule = rule;
+            Message = rule.Message;
+            
         }
     }
 }
