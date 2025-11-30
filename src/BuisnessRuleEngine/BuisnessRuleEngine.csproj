@@ -4,6 +4,17 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>RadekDev.BuisnessRuleEngine</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Radek Bajor</Authors>
+    <Company>Radek Bajor Personal</Company>
+    <Description>This buisness rule engine is based on https://github.com/kgrzybek/modular-monolith-with-ddd.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/radekwojpl2/BuisnessRuleEngine</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/radekwojpl2/BuisnessRuleEngine</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>alfa-1</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,5 +22,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Exceptions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>
