@@ -5,7 +5,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>RadekDev.BuisnessRuleEngine</PackageId>
-    <Version>1.0.1</Version>
     <Authors>Radek Bajor</Authors>
     <Company>Radek Bajor Personal</Company>
     <Description>This buisness rule engine is based on https://github.com/kgrzybek/modular-monolith-with-ddd.</Description>
